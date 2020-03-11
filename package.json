@@ -8,6 +8,10 @@
     "url": "https://github.com/ICodeMyOwnLife/eslint-config-generic-ts.git"
   },
   "license": "MIT",
+  "scripts": {
+    "commit": "git-cz",
+    "release": "release-it --ci"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.23.0",
     "@typescript-eslint/parser": "^2.23.0",
