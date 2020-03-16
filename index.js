@@ -23,23 +23,23 @@ module.exports = {
     sourceType: "module"
   },
   rules: {
-    "arrow-body-style": "warn",
-    "import/extensions": "off",
-    "no-nested-ternary": "off",
-    "no-sparse-arrays": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-empty-interface": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-object-literal-type-assertion": "off",
     "@typescript-eslint/no-unused-vars": "error",
+    "arrow-body-style": "warn",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
     "jsx-a11y/click-events-have-key-events": "off",
     "jsx-a11y/label-has-associated-control": "off",
     "jsx-a11y/no-onchange": "off",
-    "import/no-unresolved": "off",
-    "import/prefer-default-export": "off",
-    "prettier/prettier": ["warn", { singleQuote: true, trailingComma: "all" }],
-    "no-plusplus": ["warn", { allowForLoopAfterthoughts: true }]
+    "no-nested-ternary": "off",
+    "no-plusplus": ["warn", { allowForLoopAfterthoughts: true }],
+    "no-sparse-arrays": "off",
+    "prettier/prettier": ["warn", { singleQuote: true, trailingComma: "all" }]
   },
   ignorePatterns: [
     "node_modules/",
