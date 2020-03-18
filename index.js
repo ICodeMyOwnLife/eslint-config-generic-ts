@@ -36,9 +36,12 @@ module.exports = {
     "jsx-a11y/click-events-have-key-events": "off",
     "jsx-a11y/label-has-associated-control": "off",
     "jsx-a11y/no-onchange": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
     "no-nested-ternary": "off",
     "no-plusplus": ["warn", { allowForLoopAfterthoughts: true }],
     "no-sparse-arrays": "off",
+    "no-unused-expressions": "off",
+    "no-useless-constructor": "off",
     "prettier/prettier": ["warn", { singleQuote: true, trailingComma: "all" }]
   },
   ignorePatterns: [
