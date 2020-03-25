@@ -9,11 +9,11 @@ module.exports = {
   },
   plugins: ["@typescript-eslint", "import", "prettier"],
   extends: [
+    "airbnb-base",
     "plugin:jsx-a11y/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint",
-    "plugin:prettier/recommended",
-    "airbnb-base"
+    "plugin:prettier/recommended"
   ],
   globals: {
     document: true,
