@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "commit": "git-cz",
-    "release": "release-it --ci"
+    "release": "release-it"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.25.0",
