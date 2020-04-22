@@ -5,7 +5,7 @@ module.exports = {
     browser: true,
     es6: true,
     mocha: true,
-    jest: true
+    jest: true,
   },
   plugins: ["@typescript-eslint", "import", "prettier"],
   extends: [
@@ -13,15 +13,15 @@ module.exports = {
     "plugin:jsx-a11y/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
   ],
   globals: {
     document: true,
-    window: true
+    window: true,
   },
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: "module"
+    sourceType: "module",
   },
   rules: {
     "@typescript-eslint/explicit-function-return-type": "off",
@@ -30,6 +30,7 @@ module.exports = {
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-object-literal-type-assertion": "off",
     "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-use-before-define": "off",
     "arrow-body-style": "warn",
     "import/extensions": "off",
     "import/no-unresolved": "off",
@@ -43,15 +44,17 @@ module.exports = {
     "no-sparse-arrays": "off",
     "no-unused-expressions": "off",
     "no-useless-constructor": "off",
-    "prettier/prettier": ["warn", { singleQuote: true, trailingComma: "all" }]
+    "prettier/prettier": ["warn", { singleQuote: true, trailingComma: "all" }],
   },
   ignorePatterns: [
-    "node_modules/",
-    "**/*.test.ts",
-    "**/*.min.js",
-    "src/setupTests.ts",
     "build/",
     "dist/",
-    "public/"
-  ]
+    "node_modules/",
+    "public/",
+    "src/setupTests.ts",
+    "src/types",
+    "**/*.test.ts",
+    "**/*.min.js",
+    "**/*.d.ts",
+  ],
 };
