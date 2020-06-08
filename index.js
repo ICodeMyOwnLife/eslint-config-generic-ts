@@ -54,7 +54,7 @@ module.exports = {
     "src/setupTests.ts",
     "src/types",
     "**/*.test.ts",
-    "**/*.min.js",
+    "**/*.js",
     "**/*.d.ts",
   ],
 };
