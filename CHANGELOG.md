@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/ICodeMyOwnLife/eslint-config-generic-ts/compare/2.1.1...2.1.2) (2020-06-08)
+
+
+### Bug Fixes
+
+* ignore @typescript-eslint/explicit-module-boundary-types rule ([ebb016e](https://github.com/ICodeMyOwnLife/eslint-config-generic-ts/commit/ebb016e4fab0f28d343c386169ae90351e411de4))
+
 ## [2.1.1](https://github.com/ICodeMyOwnLife/eslint-config-generic-ts/compare/2.1.0...2.1.1) (2020-06-08)
 
 
