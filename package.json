@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-generic-ts",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "Shared config for TypeScript projects",
   "main": "index.js",
   "author": "Hien CB",
